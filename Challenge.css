@@ -1,6 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .container{
     width: 100%;
-    
     padding: 3px;
 }
 header{
@@ -14,6 +18,7 @@ header img {
 .flex-container{
     display: flex;
     background-color: gray;
+    justify-content: flex-end;
 }
 .flex-container > div{
     margin: 10px;
@@ -21,9 +26,8 @@ header img {
     font-size: 15px;
     color: white;
     flex-direction: column;;
-    justify-content: flex-end;
 }
-.table{
+/* .table{
     display: flex;
     background-color: turquoise;
 }
@@ -32,7 +36,7 @@ header img {
     font-size: 15px;
     flex-direction: column;
     justify-content: flex-start;
-}
+} */
 nav{
     background-color: turquoise;
     padding: 20px;
@@ -41,7 +45,6 @@ main{
     padding: 20px;
     background-color: white;
     flex: 1.5;
-    display: flex;
     
 }
 footer{
@@ -56,4 +59,11 @@ footer{
 
 .sidebar{
     flex: 1;
+}
+th, td{
+    padding: 0 25px;
+}
+table{
+    text-align: left;
+    background-color: turquoise;
 }
